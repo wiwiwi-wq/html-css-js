@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(135deg, #3f51b5 0%, #5c6bc0 100%);
+    padding: 120px 0;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.list-group-item {
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    border-left-color: #3f51b5;
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+}
+
+.table {
+    background-color: white;
+}
+
+.table thead {
+    position: sticky;
+    top: 0;
+}
+
+.table tbody tr {
+    transition: all 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.01);
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #3f51b5;
+    box-shadow: 0 0 0 0.2rem rgba(63, 81, 181, 0.25);
+}
+
+.bg-indigo {
+    background-color: #3f51b5 !important;
+}
+
+.btn-indigo {
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-indigo:hover {
+    background-color: #303f9f;
+    border-color: #303f9f;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.badge {
+    padding: 0.5em 0.8em;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0;
+        min-height: 400px;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+}

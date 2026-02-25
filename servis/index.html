@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АвтоСервис - Профессиональный ремонт автомобилей</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="badge bg-indigo fs-5">АвтоСервис</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">Прайс</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#booking">Запись</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold mb-4">Профессиональный ремонт автомобилей</h1>
+            <p class="lead mb-4">Качественное обслуживание с гарантией</p>
+            <a href="#booking" class="btn btn-indigo btn-lg">Записаться на ремонт</a>
+        </div>
+    </section>
+
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Наши услуги</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="list-group">
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Диагностика</h5>
+                                <span class="badge bg-primary rounded-pill">Популярно</span>
+                            </div>
+                            <p class="mb-1">Компьютерная диагностика всех систем автомобиля</p>
+                        </div>
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Ремонт двигателя</h5>
+                            </div>
+                            <p class="mb-1">Капитальный и текущий ремонт двигателей</p>
+                        </div>
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Ремонт подвески</h5>
+                            </div>
+                            <p class="mb-1">Замена амортизаторов, пружин, сайлентблоков</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="list-group">
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Замена масла</h5>
+                                <span class="badge bg-success rounded-pill">Быстро</span>
+                            </div>
+                            <p class="mb-1">Замена масла и фильтров за 30 минут</p>
+                        </div>
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Тормозная система</h5>
+                            </div>
+                            <p class="mb-1">Замена колодок, дисков, ремонт суппортов</p>
+                        </div>
+                        <div class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Электрика</h5>
+                            </div>
+                            <p class="mb-1">Ремонт электрооборудования и проводки</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Прайс-лист</h2>
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Услуга</th>
+                            <th>Описание</th>
+                            <th>Время</th>
+                            <th class="text-end">Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Компьютерная диагностика</td>
+                            <td>Полная диагностика всех систем</td>
+                            <td>30 мин</td>
+                            <td class="text-end">1 500 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Замена масла</td>
+                            <td>Замена масла + фильтр</td>
+                            <td>30 мин</td>
+                            <td class="text-end">2 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Замена тормозных колодок</td>
+                            <td>Передние или задние колодки</td>
+                            <td>1 час</td>
+                            <td class="text-end">3 500 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Замена амортизаторов</td>
+                            <td>Комплект 2 шт</td>
+                            <td>2 часа</td>
+                            <td class="text-end">5 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Развал-схождение</td>
+                            <td>Регулировка углов колес</td>
+                            <td>1 час</td>
+                            <td class="text-end">2 500 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Замена ремня ГРМ</td>
+                            <td>Ремень + ролики</td>
+                            <td>3 часа</td>
+                            <td class="text-end">8 000 ₽</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td colspan="3"><strong>Техническое обслуживание (ТО)</strong></td>
+                            <td class="text-end"><strong>от 6 000 ₽</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-info mt-4">
+                <strong>Внимание!</strong> Цены указаны без стоимости запчастей. Точная стоимость определяется после диагностики.
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Запись на ремонт</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <form class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="car" class="form-label">Марка и модель автомобиля</label>
+                            <input type="text" class="form-control" id="car" placeholder="Например: Toyota Camry" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="service" class="form-label">Выберите услугу</label>
+                            <select class="form-select" id="service" required>
+                                <option value="">Выберите...</option>
+                                <option value="diagnostic">Диагностика</option>
+                                <option value="oil">Замена масла</option>
+                                <option value="brakes">Тормозная система</option>
+                                <option value="suspension">Подвеска</option>
+                                <option value="engine">Ремонт двигателя</option>
+                                <option value="electric">Электрика</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Желаемая дата</label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Время</label>
+                            <select class="form-select" id="time" required>
+                                <option value="">Выберите время...</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comment" class="form-label">Комментарий</label>
+                            <textarea class="form-control" id="comment" rows="3" placeholder="Опишите проблему или пожелания"></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-indigo btn-lg">Отправить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>АвтоСервис</h5>
+                    <p>Профессиональный ремонт автомобилей с 2010 года</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Контакты</h5>
+                    <p>Телефон: +7 (999) 123-45-67<br>
+                    Email: info@autoservice.ru<br>
+                    Адрес: г. Москва, ул. Примерная, 123</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Режим работы</h5>
+                    <p>Пн-Пт: 9:00 - 20:00<br>
+                    Сб: 10:00 - 18:00<br>
+                    Вс: выходной</p>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 АвтоСервис. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
